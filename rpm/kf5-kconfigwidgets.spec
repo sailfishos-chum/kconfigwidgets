@@ -36,10 +36,9 @@ well as a set of widgets which uses KConfig to store their settings.
 %package        devel
 Summary:        Development files for %{name}
 Requires:       %{name}%{?_isa} = %{version}-%{release}
-Requires:       opt-kf5-kauth-devel >= %{majmin}
-Requires:       opt-kf5-kcodecs-devel >= %{majmin}
-Requires:       opt-kf5-kconfig-devel >= %{majmin}
-Requires:       opt-kf5-kwidgetsaddons-devel >= %{majmin}
+Requires:       opt-kf5-kcodecs-devel >= %{kf5_version}
+Requires:       opt-kf5-kconfig-devel >= %{kf5_version}
+Requires:       opt-kf5-kwidgetsaddons-devel >= %{kf5_version}
 %description    devel
 The %{name}-devel package contains libraries and header files for
 developing applications that use %{name}.
