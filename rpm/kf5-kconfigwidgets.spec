@@ -83,9 +83,8 @@ popd
 
 %files devel
 %{_opt_kf5_bindir}/preparetips5
-%{_opt_kf5_mandir}/man1/preparetips5.1*
 
-%{_opt_kf5_includedir}/KConfigWidgets/
+%{_opt_kf5_includedir}/KF5/KConfigWidgets/
 %{_opt_kf5_libdir}/libKF5ConfigWidgets.so
 %{_opt_kf5_libdir}/cmake/KF5ConfigWidgets/
 %{_opt_kf5_archdatadir}/mkspecs/modules/qt_KConfigWidgets.pri
