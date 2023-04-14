@@ -75,7 +75,7 @@ popd
 %files -f %{name}.lang
 %doc README.md
 %license LICENSES/*.txt
-%{_opt_kf5_datadir}/qlogging-categories5/%{framework}*
+%{_opt_kf5_datadir}/qlogging-categories5/kconfigwidgets*
 %{_opt_kf5_libdir}/libKF5ConfigWidgets.so.*
 ## fixme: %%lang'ify these -- rex
 %{_opt_kf5_datadir}/locale/*/kf5_entry.desktop
