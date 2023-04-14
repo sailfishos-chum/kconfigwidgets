@@ -13,7 +13,6 @@ Source0: %{name}-%{version}.tar.bz2
 %{?opt_kf5_default_filter}
 
 BuildRequires:  opt-extra-cmake-modules >= %{kf5_version}
-#BuildRequires:  opt-kf5-kauth-devel >= %{kf5_version}
 BuildRequires:  opt-kf5-kcodecs-devel >= %{kf5_version}
 BuildRequires:  opt-kf5-kconfig-devel >= %{kf5_version}
 BuildRequires:  opt-kf5-kcoreaddons-devel >= %{kf5_version}
