@@ -13,11 +13,10 @@ Source0: %{name}-%{version}.tar.bz2
 %{?opt_kf5_default_filter}
 
 BuildRequires:  opt-extra-cmake-modules >= %{kf5_version}
-BuildRequires:  opt-kf5-kauth-devel >= %{kf5_version}
+#BuildRequires:  opt-kf5-kauth-devel >= %{kf5_version}
 BuildRequires:  opt-kf5-kcodecs-devel >= %{kf5_version}
 BuildRequires:  opt-kf5-kconfig-devel >= %{kf5_version}
 BuildRequires:  opt-kf5-kcoreaddons-devel >= %{kf5_version}
-BuildRequires:  opt-kf5-kdoctools-devel >= %{kf5_version}
 BuildRequires:  opt-kf5-kguiaddons-devel >= %{kf5_version}
 BuildRequires:  opt-kf5-ki18n-devel >= %{kf5_version}
 BuildRequires:  opt-kf5-kwidgetsaddons-devel >= %{kf5_version}
@@ -57,7 +56,7 @@ touch .git
 mkdir -p build
 pushd build
 
-%_opt_cmake_kf5 ../
+%_opt_cmake_kf5 -DWITH_KAUTH=OFF ../
 %make_build
 
 popd
