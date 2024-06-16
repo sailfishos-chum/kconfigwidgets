@@ -1,7 +1,7 @@
-%global kf5_version 5.108.0
+%global kf5_version 5.115.0
 
 Name:    opt-kf5-kconfigwidgets
-Version: 5.108.0
+Version: 5.115.0
 Release: 1%{?dist}
 Summary: KDE Frameworks 5 Tier 3 addon for creating configuration dialogs
 
